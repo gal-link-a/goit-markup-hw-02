@@ -1,8 +1,53 @@
+:root :root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --reserve-text-color: #ffffff;
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+Ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .address {
   font-style: normal;
 }
 
 /* =============== HEADER ===============*/
+
+.logo-left-part {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo-right-part-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
 
 .navigation-list-link {
   font-family: 'Roboto', sans-serif;
@@ -37,7 +82,7 @@
 
 .modal-btn {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
 
@@ -60,7 +105,7 @@
 } /*ВРЕМЕННЫЙ ФОН*/
 
 .hero-title {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -73,3 +118,148 @@
 }
 
 /* =============== END HERO ===============*/
+
+/* =============== ADVANTAGES ===============*/
+
+.advant-item-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.advant-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714x;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* =============== END ADVANTAGES ===============*/
+
+/* =============== ACTIVITY ===============*/
+
+.activ-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* =============== END ACTIVITY ===============*/
+
+/* =============== TEAM ===============*/
+
+.our-team {
+  background: #f5f4fa;
+}
+
+.our-team-card {
+  background: #ffffff;
+}
+
+.our-team-head {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.our-team-name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.our-team-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* =============== END TEAMY ===============*/
+
+/* =============== FOOTER ===============*/
+
+.footer {
+  background: #2f303a;
+}
+
+.logo-right-part-footer {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-address-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-mail-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* =============== AND FOOTER ===============*/
