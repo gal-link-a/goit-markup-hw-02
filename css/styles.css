@@ -231,6 +231,7 @@ a {
 
 .footer-address-link {
   font-family: var(--main-font-family);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
